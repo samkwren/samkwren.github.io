@@ -1,0 +1,16 @@
+---
+title: "Hello World"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Greetings
+Let's try out some code!
+
+```{r sine}
+x= seq(1, 10, by = 0.1)
+plot(x, sin(x), type = "l")
+```
